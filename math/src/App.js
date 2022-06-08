@@ -7,9 +7,9 @@ import Multiplication from './components/Multiplication';
 function App() {
   return (
     <div className="App">
-      <Sum />
-      <hr></hr>
-      <Multiplication />
+      <Sum x={2} y={3}/>
+      {/* <hr></hr>
+      <Multiplication /> */}
     </div>
   );
 }
