@@ -23,6 +23,8 @@ export class Sum extends Component {
         <p> {this.state.sum} </p> */}
 
         <em>Added new lines</em> 
+
+        <p>Another added lines of code</p>
         </>
 
     )
