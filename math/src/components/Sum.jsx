@@ -21,7 +21,10 @@ export class Sum extends Component {
         {/* <p> x = {this.state.x} || y = {this.state.y}</p>
         <button onClick={this.summation}>Sum</button>
         <p> {this.state.sum} </p> */}
+
+        <em>Added new lines</em> 
         </>
+
     )
   }
 }
