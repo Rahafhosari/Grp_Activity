@@ -14,6 +14,11 @@ export class Sum extends Component {
             sum : (this.state.x + this.state.y)
         });
     }
+    sum = (e) => {
+      this.setState({
+          sum : (this.state.x + this.state.y)
+      });
+  }
     render() {
     return (
         <>
@@ -23,6 +28,7 @@ export class Sum extends Component {
         <p> {this.state.sum} </p> */}
 
         <em>Added new lines</em> 
+        <h2>malik </h2>
         </>
 
     )
