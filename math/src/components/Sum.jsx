@@ -29,6 +29,7 @@ export class Sum extends Component {
 
         <em>Added new lines</em> 
         <h2>malik </h2>
+        <p>Another added lines of code</p>
         </>
 
     )
